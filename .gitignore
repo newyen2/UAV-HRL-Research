@@ -1,0 +1,13 @@
+.venv/
+/Outputs/
+
+# Private project material
+/AGENTS.md
+/Codex/
+/Configs/
+/Legacy/
+/docs/research/
+
+# Python bytecode cache
+__pycache__/
+*.pyc

@@ -1,0 +1,24 @@
+{
+  "name": "DQN CLI example",
+  "method": "DQN",
+  "settings": {
+    "ENV": {
+      "U": 2,
+      "M": 10
+    },
+    "TRAIN": {
+      "episodes": 10,
+      "max_steps": 200,
+      "device": "cpu",
+      "seed": 1
+    },
+    "EVAL": {
+      "eval_runs": 10,
+      "max_steps": 200,
+      "eval_periods": 1
+    },
+    "DQN": {
+      "lr": 0.0001
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "experiments": [
+    {
+      "name": "DQN example",
+      "method": "DQN",
+      "settings": {
+        "TRAIN": {
+          "episodes": 10,
+          "max_steps": 200,
+          "seed": 1
+        },
+        "EVAL": {
+          "eval_runs": 10,
+          "max_steps": 200,
+          "eval_periods": 1
+        }
+      }
+    },
+    {
+      "name": "DQN_service example",
+      "method": "DQN_service",
+      "settings": {
+        "TRAIN": {
+          "episodes": 10,
+          "max_steps": 200,
+          "seed": 1
+        },
+        "EVAL": {
+          "eval_runs": 10,
+          "max_steps": 200,
+          "eval_periods": 1
+        }
+      }
+    },
+    {
+      "name": "HRL example",
+      "method": "HRL",
+      "settings": {
+        "TRAIN": {
+          "episodes": 10,
+          "max_steps": 200,
+          "seed": 1
+        },
+        "EVAL": {
+          "eval_runs": 10,
+          "max_steps": 200,
+          "eval_periods": 1
+        }
+      }
+    },
+    {
+      "name": "MA-CQR example",
+      "method": "MA-CQR",
+      "settings": {
+        "TRAIN": {
+          "episodes": 10,
+          "max_steps": 200,
+          "seed": 1
+        },
+        "EVAL": {
+          "eval_runs": 10,
+          "max_steps": 200,
+          "eval_periods": 1
+        }
+      }
+    }
+  ]
+}

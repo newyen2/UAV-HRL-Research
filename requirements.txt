@@ -1,0 +1,8 @@
+# Direct runtime dependencies verified in the project .venv on 2026-10-30.
+# Tkinter is provided by Python, not pip. Select a CPU/CUDA torch wheel as
+# described in docs/ENVIRONMENT.md; this public-version pin accepts either build.
+matplotlib==3.11.2
+numpy==2.4.6
+pandas==3.0.6
+pyarrow==25.0.1
+torch==2.11.0
